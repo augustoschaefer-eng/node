@@ -1,0 +1,11 @@
+[2026-07-04 18:28:45] usuario %{nome} criado
+[2026-07-04 18:30:28] Usuário ffff criado.
+[2026-07-04 18:35:51] Usuário ffff criado.
+[2026-07-04 18:37:23] Usuário fff criado.
+[2026-07-04 18:42:07] Usuário ffff criado.
+[2026-07-04 18:43:09] Usuário ffff criado.
+[2026-07-04 18:47:35] Usuário ffff criado.
+[2026-07-04 18:47:58] Usuário fff criado.
+[2026-07-04 18:48:16] Usuário rrr criado.
+[2026-07-04 18:51:53] Usuário ffff criado.
+[2026-07-04 18:52:18] Usuário ggggg criado.
