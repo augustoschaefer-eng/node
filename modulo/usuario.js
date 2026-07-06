@@ -14,15 +14,25 @@ function criarUsuario(nome, idade) {
   return usuario;
 }
 
-
-
 function listarUsuarios() {
   return usuarios;
+}
+
+function excluirUsuario(nomeEx) {
+  const index = usuarios.findIndex(usuario => usuario.nome === nomeEx);
+
+  if (index !== -1) {
+      usuarios.splice(index, 1);
+      return true;
+  }
+
+  return false;
 }
 
 module.exports = {
     validarNome,
     validarIdade,
     criarUsuario,
-    listarUsuarios
+    listarUsuarios,
+    excluirUsuario
 };
