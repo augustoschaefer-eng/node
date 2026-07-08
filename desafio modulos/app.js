@@ -1,8 +1,10 @@
-const prompt = require("prompt-sync")();
-const usu = require("./modulo/usuario");
-const fs = require("fs");
-const log = require("./modulo/logs");
-const arq = require("./modulo/arquivos"); 
+import promptSync from "prompt-sync";
+import fs from "fs";
+import * as usu from "./modulo/usuario.js";
+import * as log from "./modulo/logs.js";
+import * as arq from "./modulo/arquivos.js";
+
+const prompt = promptSync();
 
 
 let opcao =0;

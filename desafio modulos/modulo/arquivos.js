@@ -1,13 +1,9 @@
-const fs = require("fs");
+import fs from "fs";
 
-function salvarUser(usuario){
+export function salvarUser(usuario){
     fs.writeFileSync(
         "usuarios.json",
         JSON.stringify(usuario),
         "utf8"
     );
 }
-
-module.exports = {
-    salvarUser,
-};

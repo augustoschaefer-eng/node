@@ -1,0 +1,8 @@
+{
+  "name": "desafio-modulos",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "prompt-sync": "^5.2.0"
+  }
+}
